@@ -1,5 +1,6 @@
 /* Start Variables */
 :root {
+    --text-color: #000000 ;
     --main-color: #64748b ;
     --main-color-alt: #3b85f5;
     --main-color-alttt: #0060a0 ;
@@ -325,6 +326,7 @@ a{
     padding: 20px;
     padding-left: 0;
     font-family: emoji;
+    color: var(--text-color);
 }
 .items .container .content .box  p{
     color: var(--main-color);
@@ -352,6 +354,7 @@ a{
     font-size: 50px;
     font-family: emoji;
     text-align: center;
+    color: var(--text-color);
 }
 @media (max-width : 767px ) {
     .built .container .box h2 {
@@ -411,7 +414,7 @@ a{
         width: 45%;
     }
     .built .container .box img{
-        
+        display: none;
     }
 }
 @media (max-width :767px ) {
@@ -440,6 +443,7 @@ a{
     font-family: emoji;
     max-width: 770px;
     margin: 5px auto;
+    color: var(--text-color);
 }
 .quick .container .box .text {
     max-width: 530px;
@@ -460,6 +464,7 @@ a{
 .quick .container .box .info .text h4 {
     font-size: 28px;
     font-family: emoji;
+    color: var(--text-color);
 }
 .quick .container .box .info .text p {
     font-size: 17px;
@@ -497,6 +502,7 @@ a{
 .quick .container .box .info .text .boxs .b1 .tx h5 {
     font-size: 15px;
     font-weight: 100;
+    color: var(--text-color);
 }
 .quick .container .box .info .text .boxs .b1 .tx p {
     padding-top: 8px;
@@ -669,6 +675,7 @@ a{
     font-size: 40px;
     font-family: emoji;
     position: relative;
+    color: var(--text-color);
 }
 .experts .container .box .text p {
     line-height: 1.4;
@@ -691,6 +698,7 @@ a{
     font-size: 50px;
     font-family: emoji;
     padding-left: 30px;
+    color: var(--text-color);
 }
 .experts .container .box .info .textt .b1 h4 i {
     font-size: 30px;
@@ -859,6 +867,7 @@ a{
     font-size: 50px;
     font-family: emoji;
     padding-bottom: 35px;
+    color: var(--text-color);
 }
 @media (max-width:767px) {
     .goodbye .container .box h3 {
@@ -902,6 +911,7 @@ a{
     justify-content: center;
     padding-bottom: 30px;
     gap: 10px;
+    color: var(--text-color);
 }
 .footer .container .box .text i {
     font-size: 40px;
@@ -922,6 +932,7 @@ a{
 }
 .footer .container .box .info .b h4 {
     padding-bottom: 8px ;
+    color: var(--text-color);
 }
 .footer .container .box .info .b ul li {
     padding-bottom: 10px;
@@ -981,6 +992,7 @@ a{
 
 @media ( prefers-color-scheme:light  ) {
     :root {
+        --text-color: #000000 ;
     --main-color: #707883 ;
     --main-color-alt: #3b85f5;
     --main-color-alttt: #0060a0 ;
@@ -992,12 +1004,13 @@ a{
 }
 @media ( prefers-color-scheme:dark ) {
     :root {
+        --text-color: #ffffff ;
         --main-color: #818181 ;
         --main-color-alt: #3c5e91;
         --main-color-alttt: #457ea3 ;
         --third-color: #10b981  ;
-        --background-color: #00224e ;
-        --second-background-color: #c9caca ;
-        --body-color: #f0f0f0dc ;
+        --background-color: #000e22 ;
+        --second-background-color: #242526;
+        --body-color:   #2e3031 ;
     }
 }
